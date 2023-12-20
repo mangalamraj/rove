@@ -1,0 +1,60 @@
+.aboutGrand{
+    color: white;
+    scroll-behavior: smooth;
+}
+.Part1{
+    margin: 0 auto;
+    margin-top: 5em;
+    margin-bottom: 25em;
+    
+    text-align: left;
+    flex-direction: column;
+    
+}
+.Part2{
+    margin-bottom: 8em;
+}
+
+.aboutParent{
+    display: flex;
+    width: 70%;
+    max-width: 1156px;
+    margin: 0 auto;
+    gap: 2em;
+    justify-content: space-between;
+    padding-bottom: 10em;
+    
+}
+.WrittenHead{
+  
+    color: #FFF;
+scroll-behavior: smooth;
+font-size: 90px;
+font-style: normal;
+font-weight: 700;
+line-height: 100px; /* 111.111% */
+margin: 0 auto;
+margin-bottom: 0.5em;
+
+}
+
+.WrittenPara{
+    color: #FFF;
+max-width: 600px;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 0 auto;
+}
+
+.Frameimage{ 
+    position: sticky;
+    border-radius: 10px;
+    top: 8em;
+     margin-right: -2.6em;
+     width: 433px;
+     height: 513px;
+    object-fit: cover;
+     
+}

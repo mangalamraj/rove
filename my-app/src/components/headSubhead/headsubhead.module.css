@@ -1,0 +1,52 @@
+.HeadMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Header{
+    margin-top: 0.5em;
+    width: 70%;
+    max-width: 1008px;
+    color: #d4d4d4;
+    text-align: center;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0.1em;
+}  
+.HeadMain p{
+    color: #8c8c8c;
+text-align: center;
+max-width: 1080px;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 75%;
+margin-bottom: 1em;
+} 
+.Getstarted {
+    border-radius: 40px;
+    background: white;
+    font-size: 20px;
+    padding: 0.3em;
+    width: 144px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+}
+.Getstarted:hover{
+    opacity: 0.8;
+}
+
+@media screen and (min-width:1680px) {
+    .Getstarted{
+        margin-bottom: 4em;
+    }
+}

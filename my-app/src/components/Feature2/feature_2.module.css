@@ -1,0 +1,63 @@
+.features_grand{    
+    background-image: url("../../../public/Skydive.jpg");
+    height: 48vh;
+    padding: 3em;
+    padding-top: 8em;
+    padding-bottom: 8em;
+    background-repeat: no-repeat;
+    object-fit:fill;
+    overflow: hidden;
+}
+.writtenPart{
+    margin-left: 10em;
+    margin-top: 2.5em;
+}
+.Head{
+    font-size: 80px;
+    width: 40%;
+    font-weight: 700;
+    line-height: 90px;
+    margin-bottom: 0.1em;
+    color:white ;
+    opacity: 0.8;
+}
+.SubHead{
+    font-size: 28px;
+    width: 55%;
+    font-weight: 600;
+    color:white ;
+    opacity: 0.8;
+}
+.Main_Para{
+    width: 55%;
+    font-size: 18px;
+    color:white ;
+    opacity: 0.8;
+}
+.Check_out{
+    background-color: white;
+    width: 150px;
+    padding: 1em;
+    margin-top: 1em;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Check_out:hover{
+    opacity: 0.8;
+}
+@media screen and (max-width:1440px) {
+    .features_grand{
+        background-image: url("../../../public/Skydive_small.jpg") ;
+        object-fit:fill;
+        
+    }
+    .writtenPart{
+        margin-left: 4em;
+    }
+    .Head{
+        width: 50%;
+    }
+}
