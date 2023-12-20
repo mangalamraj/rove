@@ -1,0 +1,13 @@
+.parallax-view{
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:60vh;
+    width:100vw;
+    background-image: url('../../../public/roverr3.jpg');
+    background-attachment:fixed;
+    background-size:cover;
+    
+  }
+  

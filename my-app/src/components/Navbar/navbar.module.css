@@ -1,0 +1,64 @@
+.navbarGrand{
+ position: fixed;
+ width: 100%;
+ background-color: rgba(50, 50, 50, 0.7);
+ backdrop-filter: saturate(1) blur(20px)!important;
+ z-index: 99999;
+}
+.navbarParent {
+  display: flex;
+  padding-bottom: 1em;
+  justify-content: space-between;
+  width: 83%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 1em;
+  align-items: center;
+  
+}
+.navitems {
+  display: flex;
+  gap: 8em;
+  color: #9b9b9b;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.BrandHead {
+  color: #fff;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.Getstarted {
+  border-radius: 20px;
+  background: #0075ff;
+  width: 124px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+.item1:hover{
+  color: white;
+  cursor: pointer;
+}
+.item2:hover{
+  color: white;
+  cursor: pointer;
+}
+.item3:hover{
+  color: white;
+  cursor: pointer;
+}
+.item4:hover{
+  color: white;
+  cursor: pointer;
+}
+.Getstarted:hover{
+  opacity: 0.8;
+}

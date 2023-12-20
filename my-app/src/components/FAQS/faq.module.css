@@ -1,0 +1,24 @@
+.faq_grand{
+    background-color: rgba(36, 36, 36);;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.faq_parent{
+    width: 83%;
+    max-width: 1256px;
+  margin: 0 auto;
+  padding-top: 2em;
+  color:  white;
+  
+}
+.question{
+    margin-bottom:1em ;
+    font-size: 18px;
+}
+.ans{
+    font-size: 15px;
+    letter-spacing: 0.75px;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    padding-bottom: 2em;
+}
