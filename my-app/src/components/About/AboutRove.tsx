@@ -25,15 +25,15 @@ const About= () =>{
                 <div className={styles.writtenPart}>
                     <div className={styles.Part1} data-aos="fade-up">
                         <div className={styles.WrittenHead}>we’ve got <p>your back.</p></div>
-                        <div className={styles.WrittenPara}>gain complete control over your credit card with CRED Protect. receive category-based analysis of your spends, detect hidden charges, and track your credit limit in real-time.</div>
+                        <div className={styles.WrittenPara}>gain complete control over your credit card with ROVE Protect. receive category-based analysis of your spends, detect hidden charges, and track your credit limit in real-time.</div>
                     </div>
                     <div className={styles.Part1} data-aos="fade-up">
                         <div className={styles.WrittenHead}>we’ve got <p>your back.</p></div>
-                        <div className={styles.WrittenPara}>gain complete control over your credit card with CRED Protect. receive category-based analysis of your spends, detect hidden charges, and track your credit limit in real-time.</div>
+                        <div className={styles.WrittenPara}>gain complete control over your credit card with ROVE Protect. receive category-based analysis of your spends, detect hidden charges, and track your credit limit in real-time.</div>
                     </div>
                     <div className={styles.Part2} data-aos="fade-up">
                         <div className={styles.WrittenHead}>we’ve got <p>your back.</p></div>
-                        <div className={styles.WrittenPara}>gain complete control over your credit card with CRED Protect. receive category-based analysis of your spends, detect hidden charges, and track your credit limit in real-time.</div>
+                        <div className={styles.WrittenPara}>gain complete control over your credit card with ROVE Protect. receive category-based analysis of your spends, detect hidden charges, and track your credit limit in real-time.</div>
                     </div>
                 </div>
                 <div className={styles.DisplayFrame}>
