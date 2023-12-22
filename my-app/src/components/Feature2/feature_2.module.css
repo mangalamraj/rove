@@ -84,7 +84,8 @@
         opacity: 0.8;
     }
     .SubHead{
-        font-size: 28px;
+        font-size: 25px;
+        margin-bottom: 0.5em;
         width: 100%;
         font-weight: 600;
         color:white ;
