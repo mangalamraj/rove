@@ -59,38 +59,32 @@ margin: 0 auto;
      
 }
 
-@media screen and (max-width:770px) {
-    .aboutParent{
+@media screen and (max-width: 770px) {
+    .aboutParent {
         display: flex;
         flex-direction: column-reverse;
         width: 90%;
-    gap: 0em;
-    justify-content:none;
-    padding-bottom: 0em;
-    margin-top: 3em;
+        gap: 0em;
+        justify-content: flex-start; /* Consider using "flex-start", "flex-end", or "center" */
+        padding-bottom: 0em;
+        margin-top: 3em;
     }
-    .Frameimage{ 
-         margin-right: 0em;
-         width: 323px;
-         height: 413px;
+    .Frameimage { 
+        margin-right: 0em;
+        width: 323px;
+        height: 413px;
     }
-    .WrittenHead{
-  
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 50px; /* 111.111% */
-    margin-top: -1em ;
-    
-    
+    .WrittenHead {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 50px;
+        /* margin-top: -1em; Remove or adjust this line */
     }
-    .Part1{
+    .Part1 {
         margin: 0 auto;
-        margin-top: 5em;
-        margin-bottom: 5em;
-        
+        margin-top: 2em; /* Adjust the margin as needed */
+        margin-bottom: 2em; /* Adjust the margin as needed */
         text-align: left;
         flex-direction: column;
-        
     }
-   
 }
