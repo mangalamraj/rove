@@ -68,29 +68,12 @@
 /* Existing styles remain unchanged */
 
 @media only screen and (max-width: 768px) {
+  
   .BrandHead img{
     width: 90px;
   }
-  .mobileMenu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(50, 50, 50, 0.9); /* Adjust the alpha value for translucency */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Align items to the left */
-    padding: 1em; /* Add some padding to the mobile menu */
-    z-index: 999; /* Adjust the z-index as needed */
-  }
+ 
 
-  .mobileMenuItems {
-    /* ... */
-    display: flex;
-    flex-direction: column;
-    gap: 20px; /* Add some gap between menu items */
-  }
 
   .item1,
   .item2,
@@ -100,22 +83,8 @@
     font-size: 1.5em; /* Increase the text size */
   }
 
-  .closeButton {
-    /* ... */
-    font-size: 1.5em;
-    color: #fff;
-    margin-left: auto; /* Move the close button to the left */
-  }
-  .mobileMenuHeader {
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px;
-  }
-  .mobileMenu {
-    /* ... */
-    background-color: rgba(50, 50, 50, 0.9); /* Adjust the alpha value for translucency */
-    padding: 1em; /* Add some padding to the mobile menu */
-  }
+  
+ 
 
   .mobileMenuItems {
     /* ... */
@@ -127,27 +96,41 @@
   .item1,
   .item2,
   .item3,
-  .item4,
-  .Getstarted {
+  .item4 {
     font-size: 1.5em; /* Increase the text size */
   }
   
-
+  .Getstarted{
+    font-size: 1em;
+    margin-bottom: 50em;
+  }
 
   .closeButton {
     cursor: pointer;
     font-size: 1.5em;
     color: #fff;
+    
   }
   .mobileMenu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(50, 50, 50, 0.7);
-    z-index: 999;
+    /* ... */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text within the items */
   }
+
+  .mobileMenuHeader {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+
+  .closeButton {
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #fff;
+    margin-left: auto; /* Move the close button to the right */
+  }
+
 
   .mobileMenuItems {
     display: flex;
@@ -174,13 +157,20 @@
     display: flex; /* Show the navigation items when the 'show' class is added */
   }
 
-  .hamburger {
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
-    padding: 8px; /* Adjust the padding to make the hamburger smaller */
-    z-index: 1000;
-    margin-right: -2em;
+  .hamburger div {
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: none; /* Remove the transition for instant toggle */
+  }
+
+  .crossLine1 {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+
+  .crossLine2 {
+    transform: rotate(-45deg) translate(5px, -5px);
   }
 
   .hamburger div {
