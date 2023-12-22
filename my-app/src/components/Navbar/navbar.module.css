@@ -14,7 +14,7 @@
   margin: 0 auto;
   padding-top: 1em;
   align-items: center;
-  
+  margin-right: 3em;
 }
 .navitems {
   display: flex;
@@ -31,6 +31,9 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  display: flex;
+  justify-content: center;
+  
 }
 .Getstarted {
   border-radius: 20px;
@@ -61,4 +64,130 @@
 }
 .Getstarted:hover{
   opacity: 0.8;
+}
+/* Existing styles remain unchanged */
+
+@media only screen and (max-width: 768px) {
+  .mobileMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 50, 50, 0.9); /* Adjust the alpha value for translucency */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    padding: 1em; /* Add some padding to the mobile menu */
+    z-index: 999; /* Adjust the z-index as needed */
+  }
+
+  .mobileMenuItems {
+    /* ... */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Add some gap between menu items */
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .Getstarted {
+    font-size: 1.5em; /* Increase the text size */
+  }
+
+  .closeButton {
+    /* ... */
+    font-size: 1.5em;
+    color: #fff;
+    margin-left: auto; /* Move the close button to the left */
+  }
+  .mobileMenuHeader {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+  .mobileMenu {
+    /* ... */
+    background-color: rgba(50, 50, 50, 0.9); /* Adjust the alpha value for translucency */
+    padding: 1em; /* Add some padding to the mobile menu */
+  }
+
+  .mobileMenuItems {
+    /* ... */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Add some gap between menu items */
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .Getstarted {
+    font-size: 1.5em; /* Increase the text size */
+  }
+  
+
+
+  .closeButton {
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #fff;
+  }
+  .mobileMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 50, 50, 0.7);
+    z-index: 999;
+  }
+
+  .mobileMenuItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #fff;
+  }
+
+  .navitems {
+    display: none; /* Hide the navigation items by default on small screens */
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.7);
+    width: 100%;
+    padding: 1em;
+    z-index: 999;
+  }
+
+  .navitems.show {
+    display: flex; /* Show the navigation items when the 'show' class is added */
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 8px; /* Adjust the padding to make the hamburger smaller */
+    z-index: 1000;
+  }
+
+  .hamburger div {
+    width: 20px; /* Adjust the width of each line in the hamburger */
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0; /* Adjust the margin between lines in the hamburger */
+    transition: 0.4s;
+  }
+
+  .navbarParent {
+    position: relative;
+  }
 }

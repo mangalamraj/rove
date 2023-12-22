@@ -59,4 +59,35 @@
     .Head{
         width: 50%;
     }
+
+
+}
+
+@media screen and (max-width:770px) {
+    .writtenPart{
+        margin-left: 0em;
+        margin-top: 0em;
+    }
+    .features_grand{    
+        padding-top: 2em;
+        padding-bottom: 8em;
+        background-repeat: no-repeat;
+        object-fit:fill;
+        overflow: hidden;
+    }
+    .Head{
+        font-size: 75px;
+        width: 95%;
+        font-weight: 700;
+        line-height: 80px;
+        margin-bottom: 0.4em;
+        color:white ;
+        opacity: 0.8;
+    }
+    .Main_Para{
+        width: 85%;
+        font-size: 18px;
+        color:white ;
+        opacity: 0.9;
+    }
 }
