@@ -9,14 +9,14 @@ const About= () =>{
     const phoneRef = useRef<LottieRefCurrentProps>(null)
     useEffect(() => {
         // Check if the screen width is greater than a certain threshold (e.g., 600 pixels)
-        if (window.innerWidth > 600) {
+        
           AOS.init({
             offset: 250,
             duration: 500,
             easing: "ease-in-out",
             once: false,
           });
-        }
+        
       }, []);
     
     return(
