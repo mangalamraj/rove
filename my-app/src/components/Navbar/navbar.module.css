@@ -24,6 +24,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin-top: 0.5em ;
 }
 .BrandHead {
   color: #fff;
@@ -45,6 +46,7 @@
   align-items: center;
   color: white;
   cursor: pointer;
+  margin-top: -0.5em;
 }
 .item1:hover{
   color: white;
@@ -158,8 +160,8 @@
   }
 
   .hamburger div {
-    width: 20px;
-    height: 3px;
+    width: 25px;
+    height: 4px;
     background-color: #fff;
     margin: 4px 0;
     transition: none; /* Remove the transition for instant toggle */
@@ -174,8 +176,8 @@
   }
 
   .hamburger div {
-    width: 20px; /* Adjust the width of each line in the hamburger */
-    height: 1.5px;
+    width: 25px; /* Adjust the width of each line in the hamburger */
+    height: 3.5px;
     background-color: #fff;
     margin: 2px 0; /* Adjust the margin between lines in the hamburger */
     transition: 0.4s;
