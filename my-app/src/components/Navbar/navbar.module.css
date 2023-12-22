@@ -68,6 +68,9 @@
 /* Existing styles remain unchanged */
 
 @media only screen and (max-width: 768px) {
+  .BrandHead img{
+    width: 90px;
+  }
   .mobileMenu {
     position: fixed;
     top: 0;
@@ -177,13 +180,14 @@
     cursor: pointer;
     padding: 8px; /* Adjust the padding to make the hamburger smaller */
     z-index: 1000;
+    margin-right: -2em;
   }
 
   .hamburger div {
     width: 20px; /* Adjust the width of each line in the hamburger */
-    height: 3px;
+    height: 1.5px;
     background-color: #fff;
-    margin: 4px 0; /* Adjust the margin between lines in the hamburger */
+    margin: 2px 0; /* Adjust the margin between lines in the hamburger */
     transition: 0.4s;
   }
 

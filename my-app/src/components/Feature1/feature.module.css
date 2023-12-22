@@ -59,7 +59,9 @@
     .Head{
         width: 50%;
     }
-
+    .SubHead{
+        width: 90%;
+    }
 
 }
 
@@ -84,8 +86,13 @@
         color:white ;
         opacity: 0.8;
     }
+    .SubHead{
+        width: 90%;
+        font-size: 25px;
+        margin-bottom: 0.5em;
+    }
     .Main_Para{
-        width: 85%;
+        width: 90%;
         font-size: 18px;
         color:white ;
         opacity: 0.9;
