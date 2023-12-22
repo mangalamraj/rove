@@ -177,7 +177,7 @@
 
   .hamburger div {
     width: 25px; /* Adjust the width of each line in the hamburger */
-    height: 3.5px;
+    height: 3px;
     background-color: #fff;
     margin: 2px 0; /* Adjust the margin between lines in the hamburger */
     transition: 0.4s;
