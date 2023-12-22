@@ -45,11 +45,7 @@ const Navbar = () => {
       </div>
       {showMenu && (
         <div className={styles.mobileMenu}>
-          <div className={styles.mobileMenuHeader}>
-            <div className={styles.closeButton} onClick={toggleMenu}>
-              &#10005; {/* Unicode character for 'X' */}
-            </div>
-          </div>
+          <div className={styles.mobileMenuHeader}></div>
           <div className={styles.mobileMenuItems}>
             <div className={styles.item1} onClick={handleContactClick}>
               Home
